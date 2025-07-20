@@ -13,9 +13,9 @@ Sito web ufficiale per l'app mobile "Calcolo Straordinario" - L'app professional
 
 ## 🔗 Link Utili
 
-- [Home Page](https://[tuo-username].github.io/calcolo-straordinario-website/)
-- [Privacy Policy](https://[tuo-username].github.io/calcolo-straordinario-website/privacy-policy.html)
-- [Termini di Servizio](https://[tuo-username].github.io/calcolo-straordinario-website/terms-of-service.html)
+- [Home Page](https://fellowino.github.io/calcolo-straordinario-website/index.html)
+- [Privacy Policy](https://fellowino.github.io/calcolo-straordinario-website/privacy-policy.html)
+- [Termini di Servizio](https://fellowino.github.io/calcolo-straordinario-website/terms-of-service.html)
 
 ## 📞 Supporto
 
