@@ -19,4 +19,4 @@ Sito web ufficiale per l'app mobile "Calcolo Straordinario" - L'app professional
 
 ## 📞 Supporto
 
-Per supporto tecnico: support@calcolostraordinario.com
+Per supporto tecnico: appdevmond@gmail.com
