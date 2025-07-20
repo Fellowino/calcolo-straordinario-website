@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcolo Straordinario - App Professionale per il Tracciamento Orari</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 2rem 0;
+            text-align: center;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+        
+        .hero h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+        
+        .hero p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+        
+        .features {
+            padding: 4rem 0;
+            background: #f8f9fa;
+        }
+        
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+        
+        .feature-card {
+            background: white;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        .feature-card h3 {
+            color: #667eea;
+            margin-bottom: 1rem;
+        }
+        
+        .cta {
+            padding: 4rem 0;
+            text-align: center;
+            background: white;
+        }
+        
+        .btn {
+            display: inline-block;
+            padding: 1rem 2rem;
+            background: #667eea;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: 600;
+            margin: 0.5rem;
+            transition: background 0.3s;
+        }
+        
+        .btn:hover {
+            background: #5a6fd8;
+        }
+        
+        .footer {
+            background: #333;
+            color: white;
+            padding: 2rem 0;
+            text-align: center;
+        }
+        
+        .footer-links {
+            margin-top: 1rem;
+        }
+        
+        .footer-links a {
+            color: #ccc;
+            text-decoration: none;
+            margin: 0 1rem;
+        }
+        
+        .footer-links a:hover {
+            color: white;
+        }
+        
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2rem;
+            }
+            
+            .features-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="hero">
+                <h1>Calcolo Straordinario</h1>
+                <p>L'app professionale per il tracciamento degli orari di lavoro, calcolo straordinari e gestione presenze</p>
+            </div>
+        </div>
+    </header>
+
+    <section class="features">
+        <div class="container">
+            <h2 style="text-align: center; margin-bottom: 1rem;">Funzionalità Principali</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <h3>📊 Tracciamento Orari</h3>
+                    <p>Registra facilmente i tuoi orari di lavoro giornalieri con un'interfaccia intuitiva e veloce.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>💰 Calcolo Straordinari</h3>
+                    <p>Calcola automaticamente gli straordinari basandosi sui tuoi contratti e normative aziendali.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>📱 Backup Google Drive</h3>
+                    <p>Sincronizza i tuoi dati in sicurezza con Google Drive per non perdere mai le tue informazioni.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>📈 Report e Statistiche</h3>
+                    <p>Visualizza grafici dettagliati e report mensili per analizzare le tue ore lavorative.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>🎯 Obiettivi Mensili</h3>
+                    <p>Imposta e traccia i tuoi obiettivi mensili di ore lavorative con notifiche intelligenti.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>📄 Esportazione Dati</h3>
+                    <p>Esporta i tuoi dati in formato PDF, CSV o Excel per condividerli o archiviarli.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta">
+        <div class="container">
+            <h2>Inizia Oggi a Tracciare le Tue Ore</h2>
+            <p style="margin: 1rem 0;">Unisciti a migliaia di professionisti che già utilizzano Calcolo Straordinario</p>
+            <a href="#download" class="btn">Scarica l'App</a>
+            <a href="#contact" class="btn" style="background: #28a745;">Contattaci</a>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Calcolo Straordinario. Tutti i diritti riservati.</p>
+            <div class="footer-links">
+                <a href="privacy-policy.html">Privacy Policy</a>
+                <a href="terms-of-service.html">Termini di Servizio</a>
+                <a href="mailto:support@calcolostraordinario.com">Supporto</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
